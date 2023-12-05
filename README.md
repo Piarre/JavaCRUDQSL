@@ -14,7 +14,7 @@ A CLI application that allows the user to create, read, update, and delete recor
 ```sql
 create table users
 (
-    id        int auto_increment primary key,
+    id        int                                 auto_increment primary key,
     name      varchar(255)                        null,
     surname   varchar(255)                        null,
     email     varchar(255)                        not null,
